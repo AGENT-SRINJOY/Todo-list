@@ -22,7 +22,7 @@ function App() {
     }
      let todolist = [...todo , newtodo]
      addtodo(todolist)
-     console.log(todo)
+     document.getElementById('todoInput').value = '';
    }
 
    const remvitem = (itmId) =>{
