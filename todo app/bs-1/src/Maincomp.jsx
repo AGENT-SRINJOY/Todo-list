@@ -3,7 +3,7 @@ const Maincomp = ({handlechange , handletodo}) =>{
     <div className='todo'>
     <h1>TODO - LIST</h1>
     <div className='inputcontain'>
-      <input type='text' onChange={handlechange}/>
+      <input type='text' id='todoInput' onChange={handlechange}/>
       <button onClick={handletodo}>Add</button>
     </div>
   </div>
